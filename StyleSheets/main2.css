@@ -1,0 +1,107 @@
+.axFont
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+}
+
+UL
+{
+	margin-left: 1.5em;
+	margin-top: 0.5em;
+}
+
+.axIndexLink
+{
+	text-decoration:none;
+	color:black;
+	font-size:18px
+}
+
+@media print { .hiddenPrint { display:none; } }
+@media screen 
+{ 
+	.padIfScreen 
+	{
+		PADDING-RIGHT: 15px; 
+		PADDING-LEFT: 15px; 
+		PADDING-BOTTOM: 5px; 
+		PADDING-TOP: 5px; 
+	} 
+	
+	.fixWidthIfScreen
+	{
+		width:800px;
+	}
+	
+	.hiddenScreen
+	{
+		display: none;
+	}
+}
+
+.axIndexLink:hover
+{
+	text-decoration:none;
+	color:purple;
+	font-size:18px
+}
+
+.axIndexLinkS
+{
+	font-weight: bold;
+	text-decoration:none;
+	color:black;
+	font-size:14px
+}
+
+.axIndexLinkS:hover
+{
+	font-weight: bold;
+	text-decoration:none;
+	color:purple;
+	font-size:14px
+}
+
+.axIndexLinkS2
+{
+	font-weight: bold;
+	text-decoration:none;
+	color:#6e6183;
+	font-size:14px
+}
+
+.axIndexLinkS2:hover
+{
+	font-weight: bold;
+	text-decoration:none;
+	color:purple;
+	font-size:14px
+}
+
+
+
+
+.axIndexLinkT
+{
+	font-weight: bold;
+	text-decoration:none;
+	color: #eeeaf4;
+	font-size:12px
+}
+
+.axIndexLinkT:hover
+{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	font-size:12px
+}
+
+.axHeader
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	color: White;
+	background-color: Black;
+	font-weight: bold;
+}

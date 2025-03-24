@@ -1,0 +1,64 @@
+A {
+	color: #000081;
+}
+
+A:hover {
+	color: #008080;
+}
+
+.ccbBody {
+	background-image: url("../Images/bgsliver.jpg");
+	background-repeat: repeat-y;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: tahoma;
+	font-size: 14pt;
+}
+
+.sunBackground {
+	background: url("../Images/sun.png");
+	background-repeat: no-repeat;
+}
+
+.ccbBody2 {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: tahoma;
+	font-size: 14pt;
+}
+
+
+.ccMainMenuPicHeader
+{
+	font-weight: bold;
+	font-size: medium;
+	font-family: tahoma;
+}
+
+.ccMainMenuPicFooter {
+	vertical-align: top;
+	font-family: tahoma;
+	font-size: x-small;
+}
+
+.lxButton {
+	background-color: #DEDEDE;
+	border: 3px solid darkblue;
+}
+
+.inputStyle
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	width: 500px;
+}
+
+.print
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10pt;
+}
