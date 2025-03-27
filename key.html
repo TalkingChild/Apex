@@ -1,0 +1,146 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html>
+	<head>
+		<title>Apex Business Software -- Activate Free Trial</title>
+		<LINK href="StyleSheets/main2.css" type="text/css" rel="stylesheet">
+		<meta content="Microsoft Visual Studio 7.0" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<script src="Include/library2.js"></script>
+		<script>
+			//function verifyForm(source, arguments)
+			function verifyAndSubmit()
+			{
+				var tMessage = "";
+				
+				var tFirstName = document.getElementById('FirstName').value;
+				if (tFirstName.length == 0) tMessage += "Enter your first name. ";
+				
+				var tLastName = document.getElementById('LastName').value;
+				if (tLastName.length == 0) tMessage += "Enter your last name. ";
+				
+				var tEmail = document.getElementById('Email').value;
+				if (tEmail.length == 0) tMessage += "Enter your e-mail address. ";
+				else
+				{
+					var oReg = new RegExp("^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$");
+					if (oReg != null && oReg.exec(tEmail) == null) tMessage += "Enter your valid e-mail address. ";
+				}
+				
+				var tPhone = document.getElementById('Phone').value;
+				if (tPhone.length == 0) tMessage += "Enter your phone number. ";
+				
+				
+				
+				if (document.getElementById('iFMLA').checked) fProduct = true;
+				else if (document.getElementById('iHR').checked) fProduct = true;
+				else if (document.getElementById('iLeave').checked) fProduct = true;
+				else if (document.getElementById('iBenefits').checked) fProduct = true;
+				else tMessage += "Select a software product. ";
+
+				var tEmployees = document.getElementById('Employees').value;
+				var iEmployees = new Number(tEmployees);
+				if (iEmployees == 0 || isNaN(iEmployees)) tMessage += "Enter the number of employees. ";
+				
+				var oDemo = null;
+				if (document.getElementById('DemoYes').checked) oDemo = true;
+				else if (document.getElementById('DemoNo').checked) oDemo = false;
+				else tMessage += "Select whether or not you would like a Web demonstration. ";
+				
+			
+				if (tMessage.length > 0)
+				{
+					alert(tMessage);
+				}
+				else
+				{
+					document.getElementById('Form1').submit();
+				}
+				
+				/*if (tMessage.length > 0)
+				{
+					arguments.IsValid = false;
+					alert(tMessage);
+				}
+				else
+				{
+					arguments.IsValid = true;
+				}*/
+			}
+		</script>
+	</head>
+	<body style="MARGIN: 0px" onload="ondocumentload()">
+		<table height="100%" cellSpacing="0" cellPadding="0" width="100%">
+			<tr>
+				<td width="50%" bgColor="#eeeaf4"></td>
+				<td>
+					<table class="axFont" height="100%" cellSpacing="0" cellPadding="0" width="800">
+						<tr class="hiddenPrint" bgColor="#eeeaf4">
+	<td>&nbsp;</td>
+</tr>
+<tr class="hiddenPrint">
+	<td bgColor="#eeeaf4">
+		<table cellSpacing="0" cellPadding="0" ID="Table1">
+			<tr>
+				<td noWrap width="20">&nbsp;
+				</td>
+				<td width="100%">&nbsp;
+				</td>
+				<td><IMG src="Images2/lc.png"></td>
+				<td noWrap bgColor="#ffffff"><A class="axIndexLinkS2" href="index.html#Products">Products</A></td>
+				<td><IMG src="Images2/rc.png"></td>
+				<td><IMG src="Images2/lc.png"></td>
+				<td noWrap bgColor="#ffffff"><A class="axIndexLinkS2" href="ihr.html">iHR</A></td>
+				<td><IMG src="Images2/rc.png"></td>
+				<td><IMG src="Images2/lc.png"></td>
+				<td noWrap bgColor="#ffffff"><A class="axIndexLinkS2" href="ileave.html">iLeave</A></td>
+				<td><IMG src="Images2/rc.png"></td>
+				<td><IMG src="Images2/lc.png"></td>
+				
+				<td noWrap bgColor="#ffffff"><A class="axIndexLinkS2" href="iss.html">iSS</A></td>
+				<td><IMG src="Images2/rc.png"></td>
+				<td><IMG src="Images2/lc.png"></td>
+				<td noWrap bgColor="#ffffff"><A class="axIndexLinkS2" href="terminals.html">Terminals</A></td>
+				<td><IMG src="Images2/rc.png"></td>
+				<td noWrap width="20">&nbsp;
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr class="hiddenPrint">
+	<td class="axIndexLinkT" vAlign="bottom" noWrap width="800" background="Images2/secondarytop.png" bgColor="#eeeaf4" height="205"><IMG id="sssimg" style="DISPLAY:none;FILTER:blendTrans(duration=1);MARGIN-BOTTOM:14px;MARGIN-LEFT:545px" src="Images2/swift2.png">
+		<div style="FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 3px; MARGIN-LEFT: 8px">
+			<A class="axIndexLinkT" href="index.html">Home</A> 
+				 | &nbsp; <A class="axIndexLinkT" href="index.html#Products">Products</A>
+			| &nbsp; <A class="axIndexLinkT" href="contact.html">Contact</A>  | &nbsp; <A class="axIndexLinkT" href="key.html">Trial</A>
+			| &nbsp; <A class="axIndexLinkT" href="faq2.html">FAQ</A>
+		</div>
+	</td>
+</tr>
+
+						<tr>
+							<td style="PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px" vAlign="top" width="100%" height="100%"><br>
+								<div >
+									<h3 id="TitleHeader">Activate Trial from Apex Business Software</h3>
+									<p>Download and install the trial below. After installation, it will ask for a key.</p>
+									<P><a href='http://ihrsoftware.com/updates/full/setup.exe' >http://ihrsoftware.com/updates/full/setup.exe</a></P>
+									<p>For the full HR package, use 0119000960080000.</p>
+									<p>For just time and leave, use 0139800960080000.</p>
+									
+								</DIV>
+									
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td width="50%" bgColor="#eeeaf4"></td>
+			</tr>
+		</table>
+	</body>
+</html>
+
